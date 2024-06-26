@@ -1,0 +1,17 @@
+{
+    "name": "esp32-smart-home-monitor",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . ESP32SmartHomeMonitor --platform=darwin --arch=x64 --out=build --overwrite"
+    },
+    "dependencies": {
+      "electron": "^11.0.0",
+      "sqlite3": "^5.0.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^15.0.0"
+    }
+  }
+  
